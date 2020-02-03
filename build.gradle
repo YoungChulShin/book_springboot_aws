@@ -25,5 +25,9 @@ repositories {
 
 dependencies {  // 프로젝트 개발에 필요한 의존성 설정
     compile('org.springframework.boot:spring-boot-starter-web');
+    compile('org.projectlombok:lombok');
+
+    annotationProcessor 'org.projectlombok:lombok'
+
     testCompile('org.springframework.boot:spring-boot-starter-test');
 }
